@@ -1,0 +1,10 @@
+# ConfigMap  scoleman test
+# Delimiter is :=:  since we can have = in values
+# try not to leave empty lines in the file
+# =============================================================== #
+CONFIG_NAME:=:Test-conf
+CONFIG_REGION:=:Somewhere
+CONFIG_IP:=:0.0.0.0
+CONFIG_URL:=:https://the_test_url.fake
+CONFIG_EMPTY:=:
+CONFIG_BUCKET:=:thebucketofdreams
