@@ -1,0 +1,33 @@
+app:
+  name: my test
+  owner: shaun coleman
+  email: scoleman@infoblox.com
+  gitrepo: https://github.com/scoleman-ib/play_test
+  jiraProject: xx:xx
+  components:
+    component:
+      name: csp
+      image: 12312
+      tag:  123123
+    component:
+      name: csp-delayed-jobs
+      image: 2323
+      tag:  234234
+dev:
+  csp:
+    resources:
+      greg: dev
+      greg1: qa2
+    secret:
+      greg: dev
+      greg1: qa2
+    config:
+      greg: dev
+      greg1: qa2
+  csp-delayed-jobs:
+    resources:
+      greg: dev
+      greg1: qa2
+    secret:
+      greg: dev
+      greg1: qa2
