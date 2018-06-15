@@ -1,0 +1,18 @@
+{{- $pre := "Maps/" -}}
+{{- $env := .Values.env -}}
+{{- $suffix := "-config.txt" -}}
+{{- $file := cat $pre $env $suffix  | nospace -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.nameSpace }}-map
+  namespace: {{ .Values.nameSpace }}
+data:
+{{- range .Files.Lines $file -}}
+{{- $comment := split "#" . -}} {{- $comment_len := len $comment -}}
+{{- if eq $comment_len 1 }}
+  {{ $map := split ":=:" . -}}
+   {{- $key_len := len $map -}}
+   {{- if eq $key_len 2 -}} {{-  $key := $map._0 -}} {{-  $value := $map._1 -}}
+   {{ $key | upper }}: {{ $value | quote }}
+{{- end -}}{{- end -}}{{- end -}}
