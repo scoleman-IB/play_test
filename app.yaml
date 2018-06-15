@@ -10,12 +10,12 @@ app:
     component:
       name: test-csp
       gitrepo: https://github.com/scoleman-ib/play_test
-      filepath: testapp/test-csp
+      filepath: testapp/test-csp-update
       imagerepo: scolemanib/test
     component:
       name: test-csp-delayed-jobs
       gitrepo: https://github.com/scoleman-ib/play_test
-      filepath:  testapp/test-csp-delayed-jobs
+      filepath:  testapp/test-csp-delayed-jobs-update
       imagerepo: scolemanib/test
 dev:
   test-csp:
