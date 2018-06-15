@@ -7,12 +7,12 @@ app:
   components:
     component:
       name: test-csp
-      image: 12312
-      tag:  123123
+      filepath: testapp/test-csp
+      imagerepo: scolemanib/test
     component:
       name: test-csp-delayed-jobs
-      image: 2323
-      tag:  234234
+      filepath:  testapp/test-csp-delayed-jobs
+      imagerepo: scolemanib/test
 dev:
   test-csp:
     resources:
