@@ -5,7 +5,7 @@ app:
   email: scoleman@infoblox.com
   projecturl: xxx
   helmrepo: xxx
-  jiraProject: xx:xyyzqdf
+  jiraProject: xx:xyyzqdfj
   components:
     component:
       name: test-csp
