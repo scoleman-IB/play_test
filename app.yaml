@@ -3,15 +3,18 @@ app:
   project: updatetest
   owner: shaun coleman
   email: scoleman@infoblox.com
-  gitrepo: https://github.com/scoleman-ib/play_test
-  jiraProject: xx:xxyzq
+  projecturl: xxx
+  helmrepo: xxx
+  jiraProject: xx:xyyzq
   components:
     component:
       name: test-csp
+      gitrepo: https://github.com/scoleman-ib/play_test
       filepath: testapp/test-csp
       imagerepo: scolemanib/test
     component:
       name: test-csp-delayed-jobs
+      gitrepo: https://github.com/scoleman-ib/play_test
       filepath:  testapp/test-csp-delayed-jobs
       imagerepo: scolemanib/test
 dev:
