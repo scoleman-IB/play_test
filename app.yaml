@@ -1,5 +1,6 @@
 app:
   name: spctest
+  project: updatetest
   owner: shaun coleman
   email: scoleman@infoblox.com
   gitrepo: https://github.com/scoleman-ib/play_test
