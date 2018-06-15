@@ -20,11 +20,11 @@ app:
 dev:
   test-csp:
     resources:
-      test1: devres
+      test1: devres_Updated
       test2: dev2res
     secret:
       test1: devsec
-      test2: dev2sec
+      test2: dev2sec_Updated
     config:
       test1: devconf
       test2: dev2conf
