@@ -4,7 +4,7 @@ app:
   owner: shaun coleman
   email: scoleman@infoblox.com
   gitrepo: https://github.com/scoleman-ib/play_test
-  jiraProject: xx:xxyy
+  jiraProject: xx:xxyyz
   components:
     component:
       name: test-csp
