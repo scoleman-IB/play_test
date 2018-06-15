@@ -20,7 +20,7 @@ app:
 dev:
   test-csp:
     resources:
-      test1: devres_Updated
+      test1: plus_commit_id
       test2: dev2res
     secret:
       test1: devsec
@@ -30,7 +30,7 @@ dev:
       test2: dev2conf
   test-csp-delayed-jobs:
     resources:
-      test1: devres
+      test1: plus_commit_id
       test2: dev2res
     secret:
       test1: devsec
