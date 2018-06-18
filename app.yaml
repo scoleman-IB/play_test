@@ -4,7 +4,7 @@ app:
   owner: shaun coleman
   email: scoleman@infoblox.com
   projecturl: xxx
-  helmrepo: xxx
+  helmrepo: not yet included
   jiraProject: xx:xyyzqdfjsd
   components:
     component:
