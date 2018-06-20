@@ -1,0 +1,37 @@
+app:
+  name: new_testapp
+  project: new_updatetest
+  owner: shaun coleman
+  email: scoleman@infoblox.com
+  projecturl: xxx
+  helmrepo: not yet included
+  jiraProject: xx:newtestapp
+  components:
+    component:
+      name: test-comp
+      gitrepo: https://github.com/scoleman-ib/play_test
+      filepath: testapp/test-comp
+      imagerepo: scolemanib/test
+    component:
+      name: test-comp-delayed
+      gitrepo: https://github.com/scoleman-ib/play_test
+      filepath:  testapp/test-comp-delayed
+      imagerepo: scolemanib/test
+dev:
+  test-comp:
+    resources:
+      resource_test: devres_new
+      resource_test2: devres2_new
+    secret:
+      sec_test: devsec
+      sec_test2: devsec2
+    config:
+      config_test: devconf
+      config_test2: devconf2
+  test-comp-delayed:
+    resources:
+      resource_test_del: delayed_res
+      resource_test_del2: delayed_res2
+    secret:
+      sec_test_del: delayed_sec_new
+      sec_test_del2: delayed_sec2_new
