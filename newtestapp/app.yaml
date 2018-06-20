@@ -13,7 +13,7 @@ app:
       filepath: testapp/test-comp
       imagerepo: scolemanib/test
     component:
-      name: test-comp-delayed
+      name: test-comp-two
       gitrepo: https://github.com/scoleman-ib/play_test
       filepath:  testapp/test-comp-delayed
       imagerepo: scolemanib/test
@@ -28,10 +28,10 @@ dev:
     config:
       config_test: devconf
       config_test2: devconf2
-  test-comp-delayed:
+  test-comp-two:
     resources:
-      resource_test_del: delayed_res
-      resource_test_del2: delayed_res2
+      resource_test_del: two_res
+      resource_test_del2: two_res2
     secret:
-      sec_test_del: delayed_sec_new
-      sec_test_del2: delayed_sec2_new
+      sec_test_del: two_sec_new
+      sec_test_del2: two_sec2_new
