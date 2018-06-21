@@ -12,11 +12,6 @@ app:
       gitrepo: https://github.com/scoleman-ib/play_test
       filepath: testapp/test-comp
       imagerepo: scolemanib/test
-    component:
-      name: test-comp-two
-      gitrepo: https://github.com/scoleman-ib/play_test
-      filepath:  testapp/test-comp-delayed
-      imagerepo: scolemanib/test
 dev:
   test-comp:
     resources:
