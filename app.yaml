@@ -5,7 +5,7 @@ app:
   email: scoleman@infoblox.com
   projecturl: xxx
   helmrepo: not yet included
-  jiraProject: xx:testappupsert3
+  jiraProject: xx:testappupser4
   components:
     component:
       name: test-csp
@@ -16,7 +16,7 @@ app:
       name: test-csp-delayed-jobs
       gitrepo: https://github.com/scoleman-ib/play_test
       filepath:  testapp/test-csp-delayed-jobs-success
-      imagerepo: scolemanib/test
+      imagerepo: ---
 dev:
   test-csp:
     resources:
