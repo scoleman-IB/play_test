@@ -5,7 +5,7 @@ app:
   email: scoleman@infoblox.com
   projecturl: xxx
   helmrepo: not yet included
-  jiraProject: xx:testappupser5
+  jiraProject: xx:testenvs
   components:
     component:
       name: test-csp
@@ -20,7 +20,7 @@ app:
 dev:
   test-csp:
     resources:
-      test1: plus_commit_id
+      test1: dev1
       test2: dev2res
     secret:
       test1: devsec
@@ -30,7 +30,7 @@ dev:
       test2: dev2conf
   test-csp-delayed-jobs:
     resources:
-      test1: plus_commit_id
+      test1: dev1
       test2: dev2res
     secret:
       test1: devsec
