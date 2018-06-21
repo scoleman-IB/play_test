@@ -5,7 +5,7 @@ app:
   email: scoleman@infoblox.com
   projecturl: xxx
   helmrepo: not yet included
-  jiraProject: xx:git2
+  jiraProject: xx:git2c
   components:
     component:
       name: test-comp
