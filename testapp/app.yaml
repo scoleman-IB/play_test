@@ -23,7 +23,7 @@ dev:
       resource_test: devres_demo
       resource_test2: devres2_demo
     secret:
-      sec_test: devsec
+      sec_test: devsec_demo
       sec_test2: devsec2
     config:
       config_test: devconf
