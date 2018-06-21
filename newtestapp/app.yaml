@@ -20,14 +20,14 @@ app:
 dev:
   test-comp:
     resources:
-      resource_test: devres_demo
-      resource_test2: devres2
+      resource_test: devre_Updated2
+      resource_test2: devres2_new
     secret:
       sec_test: devsec
       sec_test2: devsec2
     config:
-      config_test: devconf
-      config_test2: devconf2
+      config_test: devconf_demo
+      config_test2: devconf2_demo
   test-comp-two:
     resources:
       resource_test_del: two_res
