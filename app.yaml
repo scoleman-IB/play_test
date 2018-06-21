@@ -35,3 +35,8 @@ dev:
     secret:
       test1: devsec
       test2: dev2sec
+preprod:
+   test-csp:
+     config:
+       test1: preprodconf
+       test3: preprodconf3
