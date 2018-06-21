@@ -20,8 +20,8 @@ app:
 dev:
   test-comp:
     resources:
-      resource_test: devre_Updated2
-      resource_test2: devres2_new
+      resource_test: devres_demo
+      resource_test2: devres2
     secret:
       sec_test: devsec
       sec_test2: devsec2
