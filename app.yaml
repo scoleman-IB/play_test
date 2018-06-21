@@ -5,7 +5,7 @@ app:
   email: scoleman@infoblox.com
   projecturl: xxx
   helmrepo: not yet included
-  jiraProject: xx:testcase
+  jiraProject: xx:testcase2
   components:
     component:
       name: test-csp
@@ -36,7 +36,7 @@ dev:
       test1: devsec
       test2: dev2sec
 preprod:
-   test-csp:
-     config:
-       test1: preprodconf
-       test3: preprodconf3
+  test-csp:
+    config:
+      test1: preprodconf
+      test3: preprodconf3
