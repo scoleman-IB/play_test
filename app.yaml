@@ -28,6 +28,7 @@ dev:
     config:
       test1: devconf
       test2: dev2conf
+      test4: dev4conf
   test-csp-delayed-jobs:
     resources:
       test1: dev1
